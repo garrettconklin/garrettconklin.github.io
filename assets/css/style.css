@@ -1666,6 +1666,12 @@ section {
   width: calc(100% - 100px);
 }
 
+#footer .footer-newsletter form input[type=text] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
 #footer .footer-newsletter form input[type=submit] {
   position: absolute;
   top: 0;
@@ -1683,7 +1689,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #0d58ba;
+  background: #000000;
 }
 
 #footer .footer-top {
@@ -1778,7 +1784,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #3b8af2;
+  background: #f2f23b;
   color: #fff;
   text-decoration: none;
 }
